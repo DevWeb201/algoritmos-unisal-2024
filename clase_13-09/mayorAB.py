@@ -1,3 +1,4 @@
+print("Algoritmo 1")
 a = int(input("Introduzca un número: "))
 b = int(input("Introduzca un número: "))
 
