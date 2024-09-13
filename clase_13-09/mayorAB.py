@@ -6,3 +6,4 @@ if a>b:
 else:
     print(f"el número {b} es mayor a {a}")
     
+    
