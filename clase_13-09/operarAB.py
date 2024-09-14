@@ -1,6 +1,7 @@
 """_summary_
 Crear un algoritmo que pida dos números y me de la suma, la resta, la multiplicación y la división
 """
+print(__doc__)
 a = int(input("Introduzca un número: "))
 b = int(input('Introduzca un número: '))
 suma = a+b
