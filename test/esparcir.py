@@ -4,9 +4,9 @@ import random  # Se importa el módulo random para generar números aleatorios
 
 # Función que simula una operación que toma un tiempo aleatorio antes de imprimir el resultado
 def lanzar():  # Corregido el nombre de la función: 'lanzr' -> 'lanzar' para mayor claridad
-    x = random.randint(1, 10)  # Se genera un número aleatorio entre 1 y 10 para 'x'
-    y = random.randint(1, 10)  # Se genera un número aleatorio entre 1 y 10 para 'y'
-    time.sleep(x + y)  # Pausa la ejecución durante 'x + y' segundos
+    x = random.randint(1, 3)  # Se genera un número aleatorio entre 1 y 10 para 'x'
+    y = random.randint(1, 3)  # Se genera un número aleatorio entre 1 y 10 para 'y'
+    #time.sleep(x + y)  # Pausa la ejecución durante 'x + y' segundos
     print(f"Bola ({x}, {y})")  # Se imprime el valor de 'x' e 'y' como coordenadas de una bola
 
 if __name__ == '__main__':
