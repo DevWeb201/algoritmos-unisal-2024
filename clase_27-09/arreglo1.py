@@ -19,6 +19,7 @@ print(f"valor en 5 es: {a[5]}")
 print(f"valor en 10 es: {a[10]}")
 # print(f"valor en 11 es: {a[11]}") # esto da error
 
+# otro ejemplo de arreglos
 b = []
 print(b)
 b.append("Ana")
@@ -29,6 +30,7 @@ b.append(True)
 b.append((1,"Hola", 2.5))
 print(b)
 
+# ejemplo de tuplas
 c = (1,3, 5, 7)
 print(c)
 d = (1, 'M', "Aldo", 5332244)
