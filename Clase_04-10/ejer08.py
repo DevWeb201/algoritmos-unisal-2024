@@ -1,6 +1,7 @@
 """_summary_
 Operaciones con cadenas
 Introduzca una cadena y muestre en minusculas y mayusculas
+divide la cadena en una lista
 """
 
 cadena = input("Cadena: ") # ingresar cadena

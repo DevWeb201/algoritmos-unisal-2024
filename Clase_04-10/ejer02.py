@@ -1,7 +1,7 @@
 """
 Concatenar Cadenas
 """
-print(__doc__)
+print(__doc__) # inprimir documentacion
 
 cadena1 = "Hola"
 cadena2 = "Mundo"
