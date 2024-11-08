@@ -10,6 +10,6 @@ def calcular_nuevo_salario(salario, incremento):
 
 salario = 550
 incre = 3.5
-print(f"El salario anterior es: ${salario:.2f} ")
-print(f"Elm incremento es de {incre}%")
-print(f"El nuevo salario es: ${calcular_nuevo_salario(salario, 3.5):.2f} ")
+print(f"Salario anterior: ${salario:.2f} ")
+print(f"Incremento: {incre}%")
+print(f"El salario nuevo: ${calcular_nuevo_salario(salario, 3.5):.2f} ")
