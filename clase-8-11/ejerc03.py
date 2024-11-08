@@ -8,4 +8,8 @@ def calcular_nuevo_salario(salario, incremento):
     """
     return salario + (salario * (incremento/100))
 
-print(f"El nuevo salario es: ${calcular_nuevo_salario(550, 3.5):.2f} ")
+salario = 550
+incre = 3.5
+print(f"El salario anterior es: ${salario:.2f} ")
+print(f"Elm incremento es de {incre}%")
+print(f"El nuevo salario es: ${calcular_nuevo_salario(salario, 3.5):.2f} ")
