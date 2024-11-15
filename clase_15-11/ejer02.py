@@ -1,5 +1,6 @@
 try:
     # Intentamos abrir y leer un archivo
+    #file = open('archivo.txt', 'r')
     with open('archivo.txt', 'r') as file:
         contenido = file.read()
         print("Contenido del archivo:")
