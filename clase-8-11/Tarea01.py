@@ -1,6 +1,6 @@
 """Tarea 01
-Escribir un programa que haga una factura de venta varios productos, calcule los ivas de 5% y 10% dependiendo del producto.
-Debe dar cuanto va a pagar el cliente y el iva total de la compra
+Escribir un programa que haga una factura de venta varios productos donde se ingresa el codigo del producto y la cantidad de productos, calcule los ivas de 5% y 10% dependiendo del producto.
+Debe dar el total por producto y total de la factura y iva con todos los productos.
 Los productos son:
 nro producto    precio  iva
 1   teclado      50$     10%
@@ -27,3 +27,26 @@ productos = {
 }
 
 print(productos.get(1).get("nombre"))
+
+def factura():
+    total = 0
+    iva_total = 0
+    while True:
+        cod = int(input("Ingrese el codigo del producto (0 para finalizar): "))
+        if cod == 0:
+            break
+        if cod not in productos:
+            print("Producto no encontrado")
+            continue
+        cant = int(input(f"Ingrese la cantidad de {productos.get(cod).get('nombre')}: "))
+        precio = productos.get(cod).get("precio")
+        iva = productos.get(cod).get("iva")
+        tot = precio * cant
+        iva_tot = tot * (iva/100)
+        print(f"Total por {productos.get(cod).get('nombre')}: ${tot + iva_tot:.2f}")
+        total += tot
+        iva_total += iva_tot
+    print(f"Total de la factura: ${total + iva_total:.2f}")
+    print(f"Total de iva: ${iva_total:.2f}")
+
+factura()
