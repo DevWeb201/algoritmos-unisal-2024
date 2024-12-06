@@ -14,6 +14,6 @@ lista2.append(7)
 
 print(lista_unida)      # Resultado: [1, 2, 3, 4, 5, 6]
 print(lista_suma)       # Resultado: [1, 2, 3, 4, 5, 6]
-print(lista_unida_suma) # Resultado: [1, 2, 3, 4, 5, 6, 7]
+print(lista_unida_suma) # Resultado: [1, 2, 3, 4, 5, 6]
 print(lista_iter)       # Resultado: [1, 2, 3, 4, 5, 6]
 print(lista_aux)        # Resultado: [1, 2, 3, 4, 5, 6]
